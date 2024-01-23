@@ -3,12 +3,12 @@
     <Page name="Песочница
 ">
         <Page name="Главная">
-            <Link locator="//*[@class='nav-link dropdown-toggle']" name="Песочница"/>
-            <Link name="Товары" locator="//a[@href='/food']"/>
-            <Link locator="//*[@id='reset']" name="Сброс данных"/>
+            <Link name="Песочница"/>
+            <Link name="Товары"/>
+            <Link name="Сброс данных"/>
         </Page>
         <Page name="Список товаров">
-            <Button name="Добавить" locator="//button[@data-toggle='modal']"/>
+            <Button name="Добавить"/>
             <Collection name="Таблица" locator=".//table/tbody/tr">
                 <StaticText name="#" locator=".//th"/>
                 <StaticText name="Наименование" locator=".//td[1]"/>
@@ -18,10 +18,10 @@
         </Page>
         <Page name="Добавление товара">
             <StaticText name="Заголовок" locator='//h5[text()="Добавление товара"]'/>
-            <TextInput name="Наименование" locator="//input[@id='name']"/>
-            <ComboBox name="Тип" locator="//select[@id='type']"/>
-            <CheckBox name="Экзотический" locator="//input[@type='checkbox']"/>
-            <Button name="Сохранить" locator="//button[@id='save']"/>
+            <TextInput name="Наименование"/>
+            <ComboBox name="Тип"/>
+            <CheckBox name="Экзотический"/>
+            <Button name="Сохранить"/>
         </Page>
     </Page>
 </Pages>
