@@ -7,14 +7,24 @@
             <FieldString name="pass" locator="pass"/>
         </Params>
     </Connection>
-    <Query name="Возврат имеющейся таблицы" statement="SELECT * FROM FOOD"/>
-    <Query name="Добавление товара" statement="INSERT INTO FOOD(food_name, food_type, food_exotic)
+    <Query name="Возврат имеющейся таблицы" statement="SELECT * FROM FOOD">
+        <Result>
+            <FieldString name="id" locator="FOOD_ID"/>
+            <FieldString name="Имя" locator="FOOD_NAME"/>
+            <FieldString name="Тип" locator="FOOD_TYPE"/>
+            <FieldString name="Экзотика" locator="FOOD_EXOTIC"/>
+        </Result>
+    </Query>
+    <Query name="Добавление товара" statement="INSERT INTO FOOD(FOOD_ID, FOOD_NAME, FOOD_TYPE, FOOD_EXOTIC)
 VALUES
-(:food_name,:food_type,:food_exotic);">
+(:FOOD_ID,:FOOD_NAME,:FOOD_TYPE,:FOOD_EXOTIC);">
         <Params>
             <FieldString name="Имя" locator="FOOD_NAME"/>
             <FieldString name="Тип" locator="FOOD_TYPE"/>
             <FieldInteger name="Экзотика" locator="FOOD_EXOTIC"/>
+            <FieldString name="id" locator="FOOD_ID"/>
         </Params>
     </Query>
+    <Query name="Создание таблицы" statement="CREATE TABLE FOOD(FOOD_ID int primary key, FOOD_NAME varchar(255), FOOD_TYPE VARCHAR(100), FOOD_EXOTIC NUMBER(1))"/>
+    <Query name="Удаление" statement="DROP TABLE FOOD"/>
 </DbGears>
