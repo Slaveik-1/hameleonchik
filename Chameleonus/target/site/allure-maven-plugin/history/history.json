@@ -1,1 +1,1 @@
-{}
+{"b94243a2da850a6bca448df5c04acfbc":{"statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"227a20906e1ab31e","status":"failed","statusDetails":"Ошибка при выполнении запроса к БД [Возврат имеющейся таблицы]","time":{"start":1705977032096,"stop":1705977035991,"duration":3895}}]}}

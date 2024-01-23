@@ -1,1 +1,1 @@
-{"uid":"98d3104e051c652961429bf95fa0b5d6","name":"suites","children":[]}
+{"uid":"98d3104e051c652961429bf95fa0b5d6","name":"suites","children":[{"name":"Добавление товара в бд","children":[{"name":"Позитивное добавление в бд","uid":"227a20906e1ab31e","parentUid":"3110497aec4c0952d0119da5ee0118dd","status":"failed","time":{"start":1705977032096,"stop":1705977035991,"duration":3895},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"3110497aec4c0952d0119da5ee0118dd"}]}

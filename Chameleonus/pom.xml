@@ -23,6 +23,15 @@
       <groupId>ru.ibsqa.chameleon</groupId>
       <artifactId>chameleon-log</artifactId>
     </dependency>
+    <dependency>
+      <groupId>com.h2database</groupId>
+      <artifactId>h2</artifactId>
+      <version>2.2.224</version>
+    </dependency>
+    <dependency>
+      <groupId>ru.ibsqa.chameleon</groupId>
+      <artifactId>chameleon-db-cucumber</artifactId>
+    </dependency>
   </dependencies>
   <repositories>
     <repository>

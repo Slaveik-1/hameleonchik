@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Tue Jan 23 06:30:32 SAMT 2024","Tue Jan 23 06:30:35 SAMT 2024","3895","","Добавление товара в бд","","Позитивное добавление в бд","","Позитивное добавление в бд",""
